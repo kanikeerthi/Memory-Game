@@ -122,9 +122,11 @@ const attachEventListeners = () => {
         }
     })
 }
-generateGame()
-attachEventListeners()
-const cardFunction = (index) => {
+// generateGame()
+// attachEventListeners()
 
-    console.log("Clicked item:", index);
+
+function myfunction() {
+    generateGame()
+    attachEventListeners()
 }
